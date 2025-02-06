@@ -21,7 +21,11 @@
       {"category": "H", "amount": 87}
     ]
   },
-  "mark": "bar",
+  "mark": {
+    "type": "bar",
+    "tooltip": true,
+    "cursor": "pointer"
+  },
   "encoding": {
     "x": {
       "field": "category",
@@ -38,5 +42,13 @@
       {"field": "category", "type": "nominal"},
       {"field": "amount", "type": "quantitative"}
     ]
+  },
+  "config": {
+    "mark": {
+      "color": "steelblue",
+      "hover": {
+        "color": "red"
+      }
+    }
   }
 }
