@@ -2,26 +2,9 @@
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "A basic bar chart example, with value labels shown upon pointer hover.",
     "background": "black",
-    "autosize": {
-        "contains": "padding",
-        "type": "fit"
-    },
-    "padding": {
-        "left": 15,
-        "top": 15,
-        "right": 15,
-        "bottom": 15
-    },
-    "signals": [
-        {
-            "name": "width",
-            "update": "containerSize()[0]"
-        },
-        {
-            "name": "height",
-            "update": "containerSize()[1] / 2"
-        }
-    ],
+    "height": 360,
+    "width": 700,
+    "padding": 15,
     "data": [
         {
             "name": "table",
