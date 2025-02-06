@@ -1,12 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A basic bar chart example, with value labels shown upon pointer hover. This chart is responsive to browser resizing.",
+  "background": "transparent",
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
   "width": "container",
   "height": "container",
+  "padding": 15,
   "data": {
     "values": [
       {"category": "A", "amount": 28},
